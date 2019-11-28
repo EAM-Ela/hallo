@@ -1,0 +1,166 @@
+#title{
+  background-color: #1e56a0;
+  color: #fff;
+}
+h1{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.9rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.1rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 1.8rem;
+}
+p{
+  font-size: 1.3rem;
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 2% 15% 12%;
+}
+.navbar{
+  padding: 0 0 5.8rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.download-btn{
+  font-family: "Montserrat";
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #00bbf0;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+   color: #1e56a0;
+}
+#testimonials{
+  text-align: center;
+  background-color: #1e56a0;
+  color: #fff;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+  background-color: #d6e4f0;
+  text-align: center;
+  /* padding-bottom: 3%; */
+}
+.press-logo{
+  width: 15%;
+  margin: 30px 20px 30px;
+}
+#pricing{
+  padding: 5% 12%;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+#cta{
+  background-color: #1e56a0;
+  color: #fff;
+  text-align: center;
+  padding: 5% 12%;
+}
+.sub-heading{
+  font-size: 2.5rem;
+}
+#footer{
+  padding: 1% 0;
+  background-color: #d6e4f0;
+  text-align: center;
+}
+.social-link{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  margin: 20px 10px
+}
+.hallo-link{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+}
+.cr{
+  font-size: 1rem;
+}
+
+@media (max-width: 1150px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  h1{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 1.5;
+  }
+  h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+  }
+  .sub-heading{
+    font-size: 2.2rem;
+  }
+  .navbar{
+    padding: 0 0 3.5rem;
+  }
+  .navbar-brand{
+    font-family: Ubuntu;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+}
